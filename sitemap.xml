@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/index.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/Jos%C3%A9-Velthuis.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/stress.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/doelgroep.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/ontspanningstherapie.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/werkwijze.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/vergoedingen.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.3</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/logo-ontspanningstherapie.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/bedrijven.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+<url>
+  <loc>http://www.velthuis-ontspanningstherapie.nl/contact.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+  
+</url>
+
+</urlset>

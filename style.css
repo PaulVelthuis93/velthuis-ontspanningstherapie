@@ -1,0 +1,380 @@
+body {
+	font-family:Verdana;
+	font-size:14px;
+	line-height:20px;
+	margin:0px;
+	padding:0px;
+
+	overflow-y: scroll;
+	color:#8C0303;
+background-color:#8C0303;
+}
+
+/* CONTAINER */
+
+#container {
+	margin:auto;
+	width:833px;
+background-color:#8C0303;
+}
+
+
+/* HEADER */
+
+#header_ontspanningstherapie {
+	width:833px;
+	height:157px;
+	margin:auto;
+	margin-top:10px;
+	background-color:#F2F1EB;
+}
+#header-top {
+	background: top;
+	width:833px;
+	height:10px;
+	margin-top:10px;
+background-color:#F2F1EB;
+}
+
+
+/* MENU */
+
+
+
+
+
+/* MAINCONTENT */
+
+#main-top {
+	background: top;
+	width:833px;
+	height:20px;
+	margin-top:15px;
+background-color:#F2F1EB;
+}
+
+#main-werkbalk {
+	background-color:#F2F1EB;
+	width:825px;
+	padding:0px 4px 30px 4px;
+}
+
+#menu {
+	width:805px;
+	height:30px;
+	margin:0px 10px 15px 10px;
+	padding-bottom:10px;
+	
+background-color:#F2F1EB;
+}
+
+
+
+.button {
+	height:26px;
+	width:150px;
+	background:url(../images/button/button_normal.png) no-repeat;
+	background-position: top left;
+	margin:0px;
+	padding-top:4px;
+	text-align:center;
+	font-size:10px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#FFF;
+	cursor:pointer;
+}
+
+.button2 {
+	height:26px;
+	width:150px;
+	background:url(../images/button/button_over.png) no-repeat;
+	background-position: top left;
+	margin:0px;
+	padding-top:4px;
+	text-align:center;
+	font-size:10px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#FFF;
+	cursor:pointer;
+}
+
+#main-title {
+	width:753px;
+	height:40px;
+	margin-bottom:15px;
+}
+
+#main-content {
+	width:753px;
+	margin:30px 40px 0px 40px;
+	padding-bottom:30px;
+	background-color::#F2F1EB;
+}
+
+#main-bottom {
+	background:url(../images/main/main-bottom.png);
+	width:833px;
+	height:32px;
+	padding-top:5px;
+}
+
+
+
+
+
+
+
+a:link { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a:visited { 
+	font-family: Verdana;
+	font-size: 14px;
+	color:#8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a:hover { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a:active {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a.bottom:link { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	text-decoration:none;
+}
+
+a.bottom:visited { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	text-decoration:none;
+}
+
+a.bottom:hover { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	text-decoration:none;
+}
+
+a.bottom:active {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #FFF;
+	text-decoration:none;
+}
+
+a.index:link { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a.index:visited { 
+	font-family: Verdana;
+	font-size: 14px;
+	color: #8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a.index:hover { 
+	font-family: Verdana;
+	font-size: 14px;
+	color:#8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a.index:active {
+	font-family: Verdana;
+	font-size: 14px;
+	color:#8C0303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+/* afbeeldingen */
+
+img {
+	
+position:absolute;
+top:1.5%;
+left:8%;
+background:url(Jose Velthuis.jpg) 0 0;
+width:20%;
+height:25%;
+}
+
+img.jose{ 
+position:relative;
+top:50%;
+align:left;
+background:url(Jose-Velthuis-Willems.jpg) 0 0;
+
+width:20%;
+height:36%;
+}
+
+img.mindful{
+position:relative;
+top:50%;
+align:left;
+background:url(Jose-Velthuis-Willems.jpg) 0 0;
+
+width:20%;
+height:36%;
+
+}
+
+img.huis{ 
+position:absolute;
+top:85%;
+right:20%;
+background:url(Verlengde-Prümelaan-ontspanningstherapie.jpg) 0 0;
+
+width:10%;
+height:15%;
+}
+
+
+.bottom { 
+	font-family: Verdana;
+	font-size: 10px;
+	color: #8C0303;
+	text-decoration:none;
+}
+
+/* opmaak */
+
+H1 {
+        text-align: center;
+	color:#8C0303;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:22px;
+
+	font-weight:bold;
+	font-style:normal;
+}
+
+H2 {
+	color: #8C0303;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+}
+H3 {
+        text-align: center;
+	color:#8C0303;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:22px;
+
+	font-weight:normal;
+	font-style:normal;
+}
+
+p {
+color: #8C0303;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	
+font-size:12px;
+
+}
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+#nav{
+	list-style:none;
+	font-weight:bold;
+	margin-bottom:10px;
+background-color:#F2F1EB;
+	/* floats */
+	float:left;
+	width:100%;
+	/* Bring the nav above everything else--uncomment if needed.
+	position:relative;
+	z-index:5;
+	*/
+}
+#nav li{
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+#nav a{
+	display:block;
+	text-decoration:none;
+}
+#nav a:hover{
+	
+	text-decoration:underline;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#nav ul li{
+	padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:underline;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	text-decoration:underline;
+	background:;
+}ne dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	
+	text-decoration:underline;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	
+}
