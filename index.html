@@ -145,7 +145,7 @@
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container_foto foto_big">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#stress" data-toggle="modal">
+          <a data-target="#stressModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -159,7 +159,7 @@
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container_foto foto_big">
       <div class="ver_mas text-center pt-3">
         <span id="click" class="font-weight-light text-white">
-          <a data-target="#doelgroep" data-toggle="modal">
+          <a data-target="#doelgroepModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -175,13 +175,12 @@
 <!-- Portfolio Grid Section -->
 <div id="therapie" class="anchor"></div>
 <div class="topic-section container-fluid" id="therapieSection">
-  <h3 class="font-weight-light text-center pt-5 pb-5">Therapie</h3> 
-  <div class="row justify-content-center">
-
-    <div class="col-lg-6 col-md-12 col-sm-* container_foto foto_small">
+  <h3 class="font-weight-light text-center pt-5">Therapie</h3> 
+  <div class="mx-auto py-5 portfolio">
+    <div class="col container_foto foto_small">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#ontspanningstherapie" data-toggle="modal">
+          <a data-target="#ademModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -191,11 +190,10 @@
       </article>
       <img src="img/ruimte.jpg" alt="">
     </div>
-
-    <div class="col-lg-6 col-md-12 col-sm-* container_foto foto_small">
+    <div class="col container_foto foto_small">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#ervaringen" data-toggle="modal">
+          <a data-target="#ervaringenModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -205,11 +203,10 @@
       </article>
       <img src="img/ervaringen.png" alt="">
     </div>
-
-    <div class="col-lg-6 col-md-12 col-sm-* container_foto foto_small">
+    <div class="col container_foto foto_small">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#werkwijze" data-toggle="modal">
+          <a data-target="#werkwijzeModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -219,12 +216,10 @@
       </article>
       <img src="img/werkwijze.jpg" alt="">
     </div>
-  </div>
-  <div class="row justify-content-center">
     <div class="col container_foto foto_small">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#vergoedingen" data-toggle="modal">
+          <a data-target="#vergoedingenModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -234,11 +229,10 @@
       </article>
       <img src="img/vergoedingen.jpg" alt="">
     </div>
-
     <div class="col container_foto foto_small">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#portfolioModal6" data-toggle="modal">
+          <a data-target="#bedrijvenModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -248,11 +242,10 @@
       </article>
       <img src="img/work-life-balance.jpg" alt="">
     </div>
-
     <div class="col container_foto foto_small">
       <div class="ver_mas text-center pt-3">
         <span id="click">
-          <a data-target="#portfolioModal2" data-toggle="modal">
+          <a data-target="#logoModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
           </a>
         </span>
@@ -264,7 +257,6 @@
     </div>
   </div>
 </div>
-<!-- Portfolio Grid Section -->
 
 <!-- Over mij -->
 <div id="overMij" class="anchor"></div>
@@ -300,6 +292,40 @@
     </div>
   </div>
 </div>
+<!-- Reviews from clients -->
+<div id="reacties" class="anchor"></div>
+<div class="topic-section container-fluid" id="reactiesSection">
+    <div class="col-lg-12 text-center">
+      <h3 class="font-weight-light mt-5 pt-5">Reacties</h3>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slide1.png" alt="First Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide2.png" alt="Second Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide3.png" alt="Third Slide">
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+  </div>
+    </div>
+</div>
 
 <!-- Contact Section -->
 <div id="contact" class="anchor"></div>
@@ -329,211 +355,407 @@
 
 <footer id="myFooter">
   <div class="row pt-4 pb-1 align-self-center">
-    <div class="col-md-3 nav-link text-left pl-5">
+    <div class="col-md-3 nav-link text-center">
       <p class="text-white">Copyright &copy; 2021</p>
     </div>
-    <div class="col-md-9 nav-link text-left">
+    <div class="col-md-6"></div>
+    <div class="col-md-3 nav-link text-center">
       <a class="text-white" href=privacy.html>Privacyverklaring</a>
     </div>
   </div>
-</footer> 
+</footer>
 
-    <!-- Voor wie -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
- <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="stress" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Beschrijving -->
-                            <h2>Stress</h2>
-<img class="img-responsive img-centered" src="balans.jpg" alt="Balans">
-                            <p class="item-intro text-muted">Stress hoort bij het leven en geeft meestal een tijdelijk verhoogde spanning. Deze spanning is nuttig en zorgt ervoor dat je tijdens stressvolle situaties kunt blijven functioneren. Zolang deze spanning ook weer losgelaten kan worden is het geen probleem. Het kunnen ontspannen is een vaardigheid die van nature bij iedereen aanwezig is.
-Het kan echter gebeuren dat na een stressvolle periode of door een ziekte, het ontspannen niet meer lukt. Overbodige spanning wordt vastgehouden en zo ontstaat een interne overspanning in het lichaam. Vaak raken mensen hieraan gewend en voelen ze deze zelf niet meer. De spanning heeft dan zijn signaalfunctie verloren. Toch beïnvloedt deze gewoon geworden, maar onnodige spanning, onze houding, beweging, ademhaling en stemming. Deze interne overspanning is vaak een voedingsbodem voor klachten, zowel lichamelijk als geestelijk.
-Adem- en ontspanningstherapie helpt deze overbodige spanning los te laten.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Sluit Stress</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Modals Section -->
+
+<!-- Voor Wie Modals -->
+<div class="modal fade" id="stressModal" tabindex="-1" role="dialog" aria-labelledby="balans" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="stressModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Stress</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
         </div>
-    </div>
-
-
-    <div class="portfolio-modal modal fade" id="doelgroep" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Beschrijving -->
-                            <h2>Doelgroep</h2>
-<img class="img-responsive img-centered" src="mindful.jpg" alt="Mindfullness">
-                           <p class="text-muted">Gezondheidsproblemen waarbij adem- en ontspanningstherapie wordt toegepast zijn: 
-Spanningsgerelateerde problemen zonder lichamelijke oorzaak
-hyperventilatieklachten, vermoeidheid, gespannenheid, overspannenheid, burn-out, hoofdpijn, slapeloosheid en aandachtsproblemen </p> 
-      <p class="text-muted">Psychische problemen:
-angst, depressie, paniek, fobieën en traumaverwerking
- </p> 
-      <p class="text-muted">Functionele problemen van houding, beweging, adem en stem
-rugklachten, nekklachten, RSI/CANS, chronische pijn en ademhalings- en stemproblemen</p> 
-      <p class="text-muted">Spanningsproblemen met specifieke lichamelijke oorzaak
-klachten bij hart- en longziekten, zoals COPD en astma, maar ook neurologische of andere aandoeningen</p> 
-      <p class="text-muted">Mensen die hun bewustzijn willen vergroten kunnen baat hebben bij adem- en ontspanningstherapie.
-Je kunt bewuster worden van spanning en ontspanning in je lichaam en mentaal. Je leert de spanning beter los te laten en je kent je eigen grenzen beter. Dit zorgt er voor dat je stressbestendigheid toeneemt. Je kunt er meer energie van krijgen. Je staat meer in contact met jezelf, hetgeen je persoonlijke groei bevordert. </p> 
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Sluit Doelgroep</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p class="lead">
+            <i>Stress</i> hoort bij het leven en geeft meestal een tijdelijk verhoogde spanning.
+          </p>
+          <p>
+            Deze spanning is nuttig en zorgt ervoor dat je tijdens stressvolle situaties kunt blijven functioneren.
+            Zolang deze spanning ook weer losgelaten kan worden is het geen probleem. Het kunnen ontspannen is een vaardigheid die van nature bij iedereen aanwezig is.
+          </p>
+          <p> 
+            Het kan echter gebeuren dat na een stressvolle periode of door een ziekte, het ontspannen niet meer lukt. Overbodige spanning wordt vastgehouden en zo ontstaat een interne overspanning in het lichaam. Vaak raken mensen hieraan gewend en voelen ze deze zelf niet meer. De spanning heeft dan zijn signaalfunctie verloren. Toch beïnvloedt deze gewoon geworden, maar onnodige spanning, onze houding, beweging, ademhaling en stemming. Deze interne overspanning is vaak een voedingsbodem voor klachten, zowel lichamelijk als geestelijk.
+          <p>
+            Adem- en ontspanningstherapie helpt deze overbodige spanning los te laten.
+          </p>
         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
     </div>
+  </div>
+</div>
 
-
-
-<!-- Portofolio modellen-->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="ontspanningstherapie" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Adem- en Ontspanningstherapie</h2>
-                            <p class="item-intro text-muted">Adem- en ontspanningstherapie Methode van Dixhoorn is de laatste decennia ontwikkeld door dr. JJ van Dixhoorn. Ontspanningstherapie is het bewust worden en leren hanteren van lichamelijke en geestelijke gespannenheid. Ademtherapie helpt de natuurlijke ontspannen adembeweging te herstellen.<br />
-Van Dixhoorn combineerde deze twee therapie&#235n en ontwikkelde zijn eigen methode. Zijn Adem- en Ontspanningstherapie leert mensen bewust te worden van hun eigen spanning en deze te regelen via aandacht, beweging, ademhaling, houding,  en voorstelling. Hierdoor kun je ontdekken of een probleem of klacht samenhangt met verhoogde spanning, die eigenlijk onnodig is en verminderd kan worden.</p>
-<p>
-
-Meer informatie over adem- en ontspanningstherapie methode van Dixhoorn vindt u op de volgende websites: <br>
-<a href=https://www.vandixhoornvereniging.nl>https://www.vandixhoornvereniging.nl</a></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Sluit Adem- en Ontspanningstherapie</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="modal fade" id="doelgroepModal" tabindex="-1" role="dialog" aria-labelledby="doelgroep" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="doelgroepModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Mind Full or Mindful?</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
         </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Logo</h2>
-<img class="img-responsive img-centered" src="theepot.jpg.bmp" alt="logo ontspanningstherapie">
-                            <p class="item-intro text-muted"> Veel mensen zien in het logo van adem- en ontspanningstherapie methode van Dixhoorn een theepotje. Het drinken van een kopje thee is ontspannend. Echter, het logo staat voor meer dan dat. Het is een model van zelfregulatie. Dit is het vermogen om je eigen aandacht te regelen en hoe je in verhouding tot je lichaam staat. Het doel van ontspanningstherapie is toename van zelfregulatie.
-
-De grote cirkel stelt de mens voor. Binnen de cirkel is een horizontale lijn getrokken. Het deel boven de lijn is het inwendige functioneren wat bewust waargenomen wordt. Het deel onder de lijn is het deel wat buiten het bewustzijn om functioneert. Deze grens is enigszins variabel. Het grootste deel van het functioneren gaat vanzelf, zonder dat je er bewust van bent.
-
-Dit model gaat uit van een zelfregulerend systeem. Veel processen gaan vanzelf, zoals de hartslag en de spijsvertering. De zelfregulatie van het gehele systeem is weergeven met een kleine cirkel in het centrum. Hiervan zijn we ons dus niet bewust. Daarnaast is er de zelfregulatie waarvan we ons wel bewust zijn, je kunt bewust op de ademhaling letten, dit is weergeven met een cirkeltje in het bovenste deel.
-
-De pijlen geven de bewuste zelfregulatie aan, welke bestaat uit interne en externe vormen. De interne zelfregulatie heeft te maken met de verhouding tussen aandacht en lichaam, de verticale pijlen naar boven en naar beneden geven dit aan. Bij een motorische handelingen, bijvoorbeeld thee inschenken, geeft de grote pijl naar beneden de bewuste controle en sturing van het lichaam weer. De kleine pijl omhoog staat voor de feedback die je vanuit het lichaam krijgt, bijvoorbeeld je voelt hoe zwaar de theepot is. Bij ontspanningsoefeningen ligt de nadruk op het gebruik van informatie van het lichaam naar de bewuste waarneming. Je voelt bijvoorbeeld bewust hoe je zit. Dit geeft de grote pijl omhoog aan. Je maakt kleine bewegingen, dit geeft de kleine pijl naar beneden aan.
-
-Bij de externe zelfregulatie beïnvloed je je lichaam via de omgeving, dit kan actief en passief zijn. Bij actieve externe zelfregulatie gebruik je de omgeving om daarmee jezelf te beïnvloeden. Door bijvoorbeeld in de spiegel te kijken, kun je je bewust worden van je houding. Dit wordt aangegeven door de gekromde pijl buiten de cirkel. Bij passieve externe zelfregulatie laten we invloeden van buiten af op ons inwerken, bijvoorbeeld door hulp te zoeken. Dit kan invloed hebben op je bewuste of onbewust deel. Dit wordt aangegeven door de rechte pijlen buiten de cirkel.
-
-Adem- en ontspanningstherapie vergroot je bewustzijn en zorgt er voor dat je meer in contact komt met jezelf. Dit kan er voor zorgen dat je bewuster wordt van je eigen grenzen, deze durft op te zoeken en overbelasting tijdig wordt opgemerkt. De invloed van emoties en spanningen worden gevoeld. Het kan zijn dat je dan beter onder woorden kunt brengen hoe het met je is. Hierdoor wordt het voor jezelf en de omgeving begrijpelijker. </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Sluit Logo</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p class="lead">Gezondheidsproblemen waarbij adem- en ontspanningstherapie wordt toegepast zijn:</p>
+          <p>
+            <i>Spanningsgerelateerde problemen</i> zonder lichamelijke oorzaak hyperventilatieklachten, vermoeidheid, gespannenheid, overspannenheid, burn-out, hoofdpijn, slapeloosheid en aandachtsproblemen
+          </p>
+          <p>
+            <i>Psychische problemen</i> - angst, depressie, paniek, fobieën en traumaverwerking
+          </p>
+          <p>
+            <i>Functionele problemen</i> van houding, beweging, adem en stem rugklachten, nekklachten, RSI/CANS, chronische pijn en ademhalings- en stemproblemen
+          </p>
+          <p>
+            <i>Spanningsproblemen</i> met specifieke lichamelijke oorzaak
+            klachten bij hart- en longziekten, zoals COPD en astma, maar ook neurologische of andere aandoeningen
+          </p>
+          <p>
+            Mensen die hun bewustzijn willen vergroten kunnen baat hebben bij adem- en ontspanningstherapie.
+            Je kunt bewuster worden van spanning en ontspanning in je lichaam en mentaal. Je leert de spanning beter los te laten en je kent je eigen grenzen beter. Dit zorgt er voor dat je stressbestendigheid toeneemt. Je kunt er meer energie van krijgen. Je staat meer in contact met jezelf, hetgeen je persoonlijke groei bevordert.
+          </p>
         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
     </div>
+  </div>
+</div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Werkwijze</h2>
 
-                            <p class="item-intro text-muted">Een behandeling duurt ongeveer 50 minuten. Samen gaan we op zoek naar een instructievorm waarbij voor jou een duidelijke en concreet waarneembare reactie ontstaat. We gaan instructies doen in lig, zit en stand, deze houdingen sluiten aan bij het dagelijks leven. Ook kan ik handgrepen (zachte manuele technieken) toepassen om de aanwezigheid van onnodige spanning te onderzoeken en te verminderen. </p>
-<p class="item-intro text-muted">
-In de eerste vier behandelingen kunnen we beoordelen of de klachten of het probleem reageren op de therapie. Na een aantal keer ontstaat een duidelijk beeld van jou ontspanningsreactie.<br>
-Een aantal mogelijk reacties zijn: <br>
--lichamelijke spanningsvermindering <br>
--mentale spanningsvermindering <br>
--herstel van energie <br>
--lichaamsbewustwording <br>
--bewegingskwaliteit neem toe <br>
--ademhaling gaat makkelijker en meer vanzelf. <br>
-Vaak verandert door de opgedane ervaringen en de informatie je inzicht over spanning en ontspanning. Zo ontdek je waar je op kunt letten om spanningklachten de baas te blijven: bijvoorbeeld door vaker een pauze te nemen, beter op je houding te letten,de ademhaling bewust te regelen of een korte ontspanningsoefening te doen.</p>
-<p class="item-intro text-muted">
-Als er na vier behandelingen verbetering is opgetreden, bekijken we samen of dat voor jou voldoende is, of dat je nog een aantal behandelingen nodig hebt om een beter effect te bereiken. <br>
-Wanneer de klachten onverminderd blijven bestaan of er is geen concrete ontspanningsreactie, dan zijn daar vaak redenen voor te vinden. Deze redenen kunnen extern zijn door spanningsvolle omgevingsfactoren of intern bij de persoon zelf. Deze factoren houden de spanning in stand, maar door de behandeling wordt vaak duidelijker waar zij precies uit bestaan. Dit bespreken we samen en we zoeken, eventueel in overleg met je arts, naar een passende oplossing voor jou.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Sluit Werkwijze</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Therapie Modals-->
+<div class="modal fade" id="ademModal" tabindex="-1" role="dialog" aria-labelledby="adem en ontspanningstherapie" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="ademModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Adem- en Ontspanningstherapie</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
         </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p class="lead">
+            Adem- en ontspanningstherapie Methode van Dixhoorn is de laatste decennia ontwikkeld door dr. JJ van Dixhoorn. 
+          </p>
+          <p>
+            Ontspanningstherapie is het bewust worden en leren hanteren van lichamelijke en geestelijke gespannenheid. Ademtherapie helpt de natuurlijke ontspannen adembeweging te herstellen.
+          </p>
+          <p>
+            Van Dixhoorn combineerde deze twee therapie&#235n en ontwikkelde zijn eigen methode. Zijn Adem- en Ontspanningstherapie leert mensen bewust te worden van hun eigen spanning en deze te regelen via aandacht, beweging, ademhaling, houding,  en voorstelling. Hierdoor kun je ontdekken of een probleem of klacht samenhangt met verhoogde spanning, die eigenlijk onnodig is en verminderd kan worden.
+          </p>
+          <p>
+            Meer informatie over adem- en ontspanningstherapie methode van Dixhoorn vindt u op de volgende websites:
+          </p>
+          <p class="text-center lead">
+            <a href=https://www.vandixhoornvereniging.nl>https://www.vandixhoornvereniging.nl</a>
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
     </div>
+  </div>
+</div>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Ervaringen</h2>
-                            <p class="item-intro text-muted">De volgende ervaringen kun je hebben met adem- en ontspanningstherapie. <br>
-Wanneer je vaak gedachten hebt of veel piekert, kun je door ontspanningstherapie leren deze los te laten. Je ervaart meer rust in je hoofd. <br>
-Als er overbodige spierspanning in je lichaam is, leer je hoe je deze los kunt laten. Je kunt ervaren dat het bewegen soepeler en makkelijker gaat. <br>
-Door adem- en ontspanningstherapie leer je om je energie weer aan te vullen. <br>
-Je kunt ervaren dat je stemming verbetert en dat je je beter kunt concentreren. <br>
-Je kunt ervaren dat de ademhaling beter verdeeld is over je lichaam, rustiger en vloeiender wordt en meer vanzelf gaat. Je wordt je bewuster van veranderingen in de ademhaling tijdens stress. <br>
-Je wordt je in het dagelijks leven bewuster van jouw lichamelijke reacties op stress (lichaamsbewustwording), leert deze in een vroeger stadium te herkennen, hier, op de voor jou juiste manier op te reageren en in balans te blijven. Je kent je eigen grenzen beter en dit zorgt er voor dat je stressbestendigheid toeneemt. Dit leidt meestal tot een verbetering van je eigen functioneren, je voelt jezelf prettiger en het verhoogt de kwaliteit van je leven. Het kan helpen het ontstaan van spanningsgebonden klachten te voorkomen. <br>
-Je zult je bewust worden van de wisselwerking tussen lichaam en geest. Vanuit ontspanning ontdek je welke invloed een probleem op jou lichaam heeft. Het kan je helpen om problemen op te lossen. <br>
-De adem- en ontspanningstherapie leren je bewust te worden van je eigen spanning en deze te regelen via aandacht, beweging, ademhaling, houding, en voorstelling. Hierdoor kun je ontdekken of een probleem of klacht samenhangt met verhoogde spanning, die eigenlijk onnodig is en verminderd kan worden. <br>
-Vaak verandert door de opgedane ervaringen en de informatie je inzicht over spanning en ontspanning. Zo ontdek je waar je op kunt letten om spanningsklachten de baas te blijven: bijvoorbeeld door vaker een pauze te nemen, beter op je houding te letten, de ademhaling bewust te regelen of een korte ontspanningsoefening te doen. <br>
-Je staat meer in contact met jezelf, wat je persoonlijke groei bevordert. </p> 
+<div class="modal fade" id="werkwijzeModal" tabindex="-1" role="dialog" aria-labelledby="werkwijze" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="werkwijzeModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Werkwijze</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p>
+            Een behandeling duurt ongeveer 50 minuten. Samen gaan we op zoek naar een instructievorm waarbij voor jou een duidelijke en concreet waarneembare reactie ontstaat. We gaan instructies doen in lig, zit en stand, deze houdingen sluiten aan bij het dagelijks leven. Ook kan ik handgrepen (zachte manuele technieken) toepassen om de aanwezigheid van onnodige spanning te onderzoeken en te verminderen.
+          </p>
+          <p>
+            In de eerste vier behandelingen kunnen we beoordelen of de klachten of het probleem reageren op de therapie. Na een aantal keer ontstaat een duidelijk beeld van jou ontspanningsreactie.
+            Een aantal mogelijk reacties zijn:
+          </p>
+          <p><i>
+            - lichamelijke spanningsvermindering <br>
+            - mentale spanningsvermindering <br>
+            - herstel van energie <br>
+            - lichaamsbewustwording <br>
+            - bewegingskwaliteit neem toe <br>
+            - ademhaling gaat makkelijker en meer vanzelf. <br>
+          </i></p>
+          <p>
+            Vaak verandert door de opgedane ervaringen en de informatie je inzicht over spanning en ontspanning. Zo ontdek je waar je op kunt letten om spanningklachten de baas te blijven: bijvoorbeeld door vaker een pauze te nemen, beter op je houding te letten,de ademhaling bewust te regelen of een korte ontspanningsoefening te doen.
+          </p>
+          <p>
+            Als er na vier behandelingen verbetering is opgetreden, bekijken we samen of dat voor jou voldoende is, of dat je nog een aantal behandelingen nodig hebt om een beter effect te bereiken. <br>
+            Wanneer de klachten onverminderd blijven bestaan of er is geen concrete ontspanningsreactie, dan zijn daar vaak redenen voor te vinden. Deze redenen kunnen extern zijn door spanningsvolle omgevingsfactoren of intern bij de persoon zelf. Deze factoren houden de spanning in stand, maar door de behandeling wordt vaak duidelijker waar zij precies uit bestaan. Dit bespreken we samen en we zoeken, eventueel in overleg met je arts, naar een passende oplossing voor jou.
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="bedrijvenModal" tabindex="-1" role="dialog" aria-labelledby="bedrijven" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="bedrijvenModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Bedrijven</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <h5 class="text-muted">Individuele begeleiding van werknemers</h5> 
+          <p>
+            Werknemers met stressgerelateerde klachten kan ik met adem- en ontspanningstherapie begeleiden. We gaan samen een aantal zinvolle ontspanningsinstructies zoeken en de werknemer gaat zich deze instructies eigen maken en ze integreren in het dagelijks leven. Hierdoor zal de spanning bij de werknemer merkbaar afnemen en zal hij in de toekomst beter met stress kunnen omgaan.
+          </p>
+          <p>
+            Voor meer informatie over de behandeling zie: Adem- en Ontspanningstherapie en werkwijze.
+          </p>
+ 
+          <h5 class="text-muted">Workshops of trainingen</h5>
+          <p>
+            Bij bedrijven kan ik workshops of trainingen verzorgen. Deze workshops en trainingen zijn met name gericht op de mogelijkheden om stress beter te hanteren. 
+          </p>
+          <p>
+            Eerst geef ik een korte inleiding over stress en adem- en ontspanningstherapie. Daarna gaan we adem- en ontspanningsinstructies en stressmanagementtechnieken doen en de ervaringen bespreken.
+            Het doel van de trainingen is de oefeningen en de verkregen inzichten te integreren in het dagelijks leven. Het effect is vaak dat men zich bewuster wordt van spanning en ontspanning, leert de spanning beter los te laten en eigen grenzen beter kent. Hierdoor neemt stressbestendigheid toe en kan men meer energie krijgen. Men komt meer in contact met zichzelf, hetgeen persoonlijke groei bevordert.
+          </p>
+          <p>
+            Workshops en trainingen worden in overleg samengesteld.
+          </p> 
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="vergoedingenModal" tabindex="-1" role="dialog" aria-labelledby="vergoedingen" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="vergoedingenModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Tarieven en ergoedingen</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p class="text-muted">
+            Een behandeling van een uur kost &euro;70,-. In overleg kunt u een kortere behandeling afspreken, bijvoorbeeld 45 minuten voor &euro;52,50.
+          </p>
+          <p>
+            Veel zorgverzekeraars vergoeden adem- en ontspanningstherapie methode van Dixhoorn geheel of gedeeltelijk via aanvullende pakketten:
+          </p>
+          <p>
+            Ik ben als fysiotherapeute ingeschreven in het BIG register onder nummer <strong>79035524704</strong> en in het Centraal Kwaliteitsregister Fysiotherapie in het deelregister Algemeen Fysiotherapeut.
+          </p>
+          <p>
+            Ik sta in het register van de Adem- en Ontspanningstherapie Stichting (AOS) en ben lid van de Van Dixhoorn Vereniging voor Adem- en Ontspanningstherapie (VDV) onder register nummer <strong>119/10</strong>.
+          </p>
+          <p>
+            Met deze gegevens kunt u bij uw zorgverzekering informeren hoeveel van de behandeling vergoed wordt. U kunt ook in het <a href=https://www.vandixhoornvereniging.nl/vergoedingen/>vergoedingsoverzicht</a> zien hoeveel uw zorgverzekeraar vergoedt. Dit overzicht biedt geen garantie, neem bij twijfel contact met uw zorgverzekeraar.
+          </p>
+          <p>
+            Wanneer u een afspraak niet na kunt komen, verzoek ik u die zo spoedig mogelijk te annuleren. Bij verhindering dient een afspraak minimaal 48 uur van te voren afgezegd te worden. Bij te late afmelding wordt de behandeling in rekening gebracht.  
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ervaringenModal" tabindex="-1" role="dialog" aria-labelledby="ervaringen" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="ervaringenModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Ervaringen</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p>
+            De volgende ervaringen kun je hebben met adem- en ontspanningstherapie.
+          </p>
+          <p>
+            Wanneer je vaak gedachten hebt of veel piekert, kun je door ontspanningstherapie leren deze los te laten. Je ervaart meer rust in je hoofd.
+            Als er overbodige spierspanning in je lichaam is, leer je hoe je deze los kunt laten. Je kunt ervaren dat het bewegen soepeler en makkelijker gaat. 
+          </p>
+          <p class="lead">
+            Door adem- en ontspanningstherapie leer je om je energie weer aan te vullen.
+          </p>
+          <p class="text-muted">
+            <i>Je kunt ervaren dat je stemming verbetert en dat je je beter kunt concentreren. </i>
+          </p>
+          <p class="text-muted">
+            <i>Je kunt ervaren dat de ademhaling beter verdeeld is over je lichaam, rustiger en vloeiender wordt en meer vanzelf gaat. </i>
+          </p>
+          <p class="text-muted">
+            <i>Je wordt je bewuster van veranderingen in de ademhaling tijdens stress. </i>
+          </p>
+          <p class="text-muted">
+            <i>Je wordt je in het dagelijks leven bewuster van jouw lichamelijke reacties op stress (lichaamsbewustwording), leert deze in een vroeger stadium te herkennen, hier, op de voor jou juiste manier op te reageren en in balans te blijven. </i>
+          </p>
+          <p class="text-muted">
+            <i>Je kent je eigen grenzen beter en dit zorgt er voor dat je stressbestendigheid toeneemt. Dit leidt meestal tot een verbetering van je eigen functioneren, je voelt jezelf prettiger en het verhoogt de kwaliteit van je leven. Het kan helpen het ontstaan van spanningsgebonden klachten te voorkomen. </i>
+          </p>
+          <p class="text-muted">
+            <i>Je zult je bewust worden van de wisselwerking tussen lichaam en geest. Vanuit ontspanning ontdek je welke invloed een probleem op jou lichaam heeft. Het kan je helpen om problemen op te lossen.</i>
+          </p>
+          <p> 
+            De adem- en ontspanningstherapie leren je bewust te worden van je eigen spanning en deze te regelen via aandacht, beweging, ademhaling, houding, en voorstelling. Hierdoor kun je ontdekken of een probleem of klacht samenhangt met verhoogde spanning, die eigenlijk onnodig is en verminderd kan worden. 
+          </p>
+          <p>
+            Vaak verandert door de opgedane ervaringen en de informatie je inzicht over spanning en ontspanning. Zo ontdek je waar je op kunt letten om spanningsklachten de baas te blijven: bijvoorbeeld door vaker een pauze te nemen, beter op je houding te letten, de ademhaling bewust te regelen of een korte ontspanningsoefening te doen. 
+          </p>
+          <p class="text-muted">
+            <i>Je staat meer in contact met jezelf, wat je persoonlijke groei bevordert.</i>
+          </p> 
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="logoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modalHeader px-0 py-0" id="logoModalHeader">
+        <div class="d-flex modalHeaderMask px-4 py-3">
+          <div class="mr-auto mt-auto">
+            <h4 class="modal-title font-weight-bold text-white">
+              <i>Adem- en ontspanningstherapie methode van Dixhoorn</i>
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p>
+            Veel mensen zien in het logo van adem- en ontspanningstherapie methode van Dixhoorn een theepotje. Het drinken van een kopje thee is ontspannend. 
+          </p>
+          <p>
+            Echter, het logo staat voor meer dan dat. Het is een model van zelfregulatie. Dit is het vermogen om je eigen aandacht te regelen en hoe je in verhouding tot je lichaam staat. 
+          </p>
+          <p>
+            Het doel van ontspanningstherapie is toename van zelfregulatie. De grote cirkel stelt de mens voor. Binnen de cirkel is een horizontale lijn getrokken. Het deel boven de lijn is het inwendige functioneren wat bewust waargenomen wordt. Het deel onder de lijn is het deel wat buiten het bewustzijn om functioneert. Deze grens is enigszins variabel. Het grootste deel van het functioneren gaat vanzelf, zonder dat je er bewust van bent.
+          </p>
+          <p>
+            Dit model gaat uit van een zelfregulerend systeem. Veel processen gaan vanzelf, zoals de hartslag en de spijsvertering. De zelfregulatie van het gehele systeem is weergeven met een kleine cirkel in het centrum. Hiervan zijn we ons dus niet bewust. Daarnaast is er de zelfregulatie waarvan we ons wel bewust zijn, je kunt bewust op de ademhaling letten, dit is weergeven met een cirkeltje in het bovenste deel.
+          </p>
+          <p>
+            De pijlen geven de bewuste zelfregulatie aan, welke bestaat uit interne en externe vormen. De interne zelfregulatie heeft te maken met de verhouding tussen aandacht en lichaam, de verticale pijlen naar boven en naar beneden geven dit aan. Bij een motorische handelingen, bijvoorbeeld thee inschenken, geeft de grote pijl naar beneden de bewuste controle en sturing van het lichaam weer. De kleine pijl omhoog staat voor de feedback die je vanuit het lichaam krijgt, bijvoorbeeld je voelt hoe zwaar de theepot is. Bij ontspanningsoefeningen ligt de nadruk op het gebruik van informatie van het lichaam naar de bewuste waarneming. Je voelt bijvoorbeeld bewust hoe je zit. Dit geeft de grote pijl omhoog aan. Je maakt kleine bewegingen, dit geeft de kleine pijl naar beneden aan.
+          </p>
+          <p>
+            Bij de externe zelfregulatie beïnvloed je je lichaam via de omgeving, dit kan actief en passief zijn. Bij actieve externe zelfregulatie gebruik je de omgeving om daarmee jezelf te beïnvloeden. Door bijvoorbeeld in de spiegel te kijken, kun je je bewust worden van je houding. Dit wordt aangegeven door de gekromde pijl buiten de cirkel. Bij passieve externe zelfregulatie laten we invloeden van buiten af op ons inwerken, bijvoorbeeld door hulp te zoeken. Dit kan invloed hebben op je bewuste of onbewust deel. Dit wordt aangegeven door de rechte pijlen buiten de cirkel.
+          </p>
+          <p class="lead">
+            Adem- en ontspanningstherapie vergroot je bewustzijn en zorgt er voor dat je meer in contact komt met jezelf. Dit kan er voor zorgen dat je bewuster wordt van je eigen grenzen, deze durft op te zoeken en overbelasting tijdig wordt opgemerkt. De invloed van emoties en spanningen worden gevoeld. Het kan zijn dat je dan beter onder woorden kunt brengen hoe het met je is. Hierdoor wordt het voor jezelf en de omgeving begrijpelijker.
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Sluit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 							
 							<h2>Reacties</h2>
 
@@ -588,76 +810,7 @@ Mariëtte Loeve-Kernkamp, handtherapeut </p>
 José heeft me met passie begeleid. <br>
 Ik ben me bewust geworden van de wisselwerking tussen mijn lichaam en mijn gedachten. Ik ga hier bewuster mee om en dit helpt mij om mijn gedrag in positieve zin te veranderen en dit geeft mij meer energie. <br>
 cliënt, communicatie trainer</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Sluit Ervaringen</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Bedrijven</h2>
-
-                        <h6>Individuele begeleiding van werknemers</h6>    <p class="item-intro text-muted">
-Werknemers met stressgerelateerde klachten kan ik met adem- en ontspanningstherapie begeleiden. We gaan samen een aantal zinvolle ontspanningsinstructies zoeken en de werknemer gaat zich deze instructies eigen maken en ze integreren in het dagelijks leven. Hierdoor zal de spanning bij de werknemer merkbaar afnemen en zal hij in de toekomst beter met stress kunnen omgaan. <br>
-Voor meer informatie over de behandeling zie: Adem- en Ontspanningstherapie en werkwijze.</p>
- 
-<h6>Workshops of trainingen</h6> <p class="item-intro text-muted">
-Bij bedrijven kan ik workshops of trainingen verzorgen. Deze workshops en trainingen zijn met name gericht op de mogelijkheden om stress beter te hanteren. Eerst geef ik een korte inleiding over stress en adem- en ontspanningstherapie. Daarna gaan we adem- en ontspanningsinstructies en stressmanagementtechnieken doen en de ervaringen bespreken.
-Het doel van de trainingen is de oefeningen en de verkregen inzichten te integreren in het dagelijks leven. Het effect is vaak dat men zich bewuster wordt van spanning en ontspanning, leert de spanning beter los te laten en eigen grenzen beter kent. Hierdoor neemt stressbestendigheid toe en kan men meer energie krijgen. Men komt meer in contact met zichzelf, hetgeen persoonlijke groei bevordert.
-Workshops en trainingen worden in overleg samengesteld.</p> 
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Sluit Bedrijven</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Tarieven en vergoedingen</h2>
-                            <p class="item-intro text-muted">
-                                Een behandeling van een uur kost &euro;70,-. In overleg kunt u een kortere behandeling afspreken, bijvoorbeeld 45 minuten voor &euro;52,50. </p>
-                                <p class="item-intro text-muted">Veel zorgverzekeraars vergoeden adem- en ontspanningstherapie methode van Dixhoorn geheel of gedeeltelijk via aanvullende pakketten.
-
-Ik ben als fysiotherapeute ingeschreven in het BIG register onder nummer 79035524704 en in het Centraal Kwaliteitsregister Fysiotherapie in het deelregister Algemeen Fysiotherapeut.
-Ik sta in het register van de Adem- en Ontspanningstherapie Stichting (AOS) en ben lid van de Van Dixhoorn Vereniging voor Adem- en Ontspanningstherapie (VDV) onder register nummer 119/10. Met deze gegevens kunt u bij uw zorgverzekering informeren hoeveel van de behandeling vergoed wordt.
-U kunt ook in het <a href=https://www.vandixhoornvereniging.nl/vergoedingen/>vergoedingsoverzicht</a> zien hoeveel uw zorgverzekeraar vergoedt. Dit overzicht biedt geen garantie, neem bij twijfel contact met uw zorgverzekeraar.</p>
-<p class="item-intro text-muted"> Wanneer u een afspraak niet na kunt komen, verzoek ik u die zo spoedig mogelijk te annuleren. Bij verhindering dient een afspraak minimaal 48 uur van te voren afgezegd te worden. Bij te late afmelding wordt de behandeling in rekening gebracht.  
-</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Sluit Vergoedingen</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
