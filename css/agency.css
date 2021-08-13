@@ -319,13 +319,17 @@ span.ver_mas {
   .portfolio {
     column-count: 2;
     column-gap: 0px;
-    width: 350px;
+    width: 50vh;
     padding: 0px;
     margin: 0px;
   }
 
+  .foto_big {
+    width: 50vh;
+  }
+
   .portfolio h5{
-    font-size:  2.5vh;
+    font-size:  2.2vh;
   }
 
   .carousel-item p{
