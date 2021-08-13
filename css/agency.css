@@ -229,8 +229,18 @@ span.ver_mas {
    margin-left: -100px;
 }
 
-.embed-responsive {
-  height: 450px;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .portfolio {
@@ -245,6 +255,11 @@ span.ver_mas {
   and (min-width: 800px){ 
   .topic-section {
     height: 100vh;
+  }
+
+  .carousel-item {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 
@@ -304,9 +319,17 @@ span.ver_mas {
   .portfolio {
     column-count: 2;
     column-gap: 0px;
-    width: 460px;
+    width: 350px;
     padding: 0px;
     margin: 0px;
+  }
+
+  .portfolio h5{
+    font-size:  2.5vh;
+  }
+
+  .carousel-item p{
+    font-size:  2.5vh;
   }
 }
 
