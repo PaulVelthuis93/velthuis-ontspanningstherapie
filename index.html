@@ -67,43 +67,35 @@
 
 </head>
 
-<body id="page-top" class="index">    <!-- Navigation -->
-  <div class="fixed-top">
-    <nav class="navbar navbar-default navbar-expand-lg navbar-dark">
-      <div class="d-flex flex-grow-1">
-          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-          <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-              <img src="velthuis.jpeg" class="img-responsive rounded-circle" width="40px" alt="">
-              Ontspanningstherapie
-          </a>
-          <a class="navbar-brand d-none d-lg-inline-block" href="#">
-              <img src="velthuis.jpeg" class="img-responsive rounded-circle" width="40px" alt="">
-              Ontspanningstherapie
-          </a>
-          <div class="w-100 text-right">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-          </div>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item">
-                  <a href="#voorWie" class="nav-link m-2 menu-item nav-active">Voor Wie</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#therapie" class="nav-link m-2 menu-item">Therapie</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#overMij" class="nav-link m-2 menu-item">Over Mij</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
-              </li>
-          </ul>
-      </div>
-    </nav>
-  </div>
+
+<body id="page-top" class="index">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom ">
+    <a class="navbar-brand d-inline-block text-white" href="#">
+      <img src="velthuis.jpeg" class="img-responsive rounded-circle" alt="">
+      Ontspanningstherapie
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a href="#voorWie" class="nav-link menu-item nav-active">Voor Wie <span class="sr-only">(current)</span> </a>
+        </li>
+        <li class="nav-item">
+          <a href="#therapie" class="nav-link menu-item">Therapie</a>
+        </li>
+        <li class="nav-item">
+          <a href="#overMij" class="nav-link menu-item">Over Mij</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link menu-item">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- Header -->
   <header class="masthead">
     <div class="h-100 masthead-mask">
@@ -119,10 +111,12 @@
     </div>
   </header>
 <div id="mijnPraktijk" class="anchor"></div>
-<div class="topic-section container-fluid">
+<div class="topic-section container">
     <div class="col-lg-12 text-center">
-      <h3 class="font-weight-light mt-5">Over mijn praktijk</h3>
-      <p class="mt-3">
+      <h3 class="font-weight-normal my-5">Over mijn praktijk</h3>
+    </div>
+    <div class="custom-text">
+      <p>
         Welkom op de website van José  Velthuis Praktijk voor Adem- en Ontspanningstherapie in Arnhem. 
       </p> 
       <p>
@@ -140,10 +134,10 @@
 <!-- Services Section -->
 <div id="voorWie" class="anchor"></div>
 <div class="topic-section container-fluid" id="voorWieSection">
-  <h3 class="font-weight-light text-center pt-5 pb-5">Voor Wie</h3> 
+  <h3 class="font-weight-normal text-center pt-5 pb-5">Voor Wie</h3> 
   <div class="row justify-content-center pb-5">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container_foto foto_big">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#stressModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -157,7 +151,7 @@
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container_foto foto_big">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click" class="font-weight-light text-white">
           <a data-target="#doelgroepModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -175,10 +169,10 @@
 <!-- Portfolio Grid Section -->
 <div id="therapie" class="anchor"></div>
 <div class="topic-section container-fluid" id="therapieSection">
-  <h3 class="font-weight-light text-center pt-5">Therapie</h3> 
+  <h3 class="font-weight-normal text-center pt-5">Therapie</h3> 
   <div class="mx-auto py-5 portfolio">
     <div class="col container_foto foto_small">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#ademModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -191,7 +185,7 @@
       <img src="img/ruimte.jpg" alt="">
     </div>
     <div class="col container_foto foto_small">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#ervaringenModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -204,7 +198,7 @@
       <img src="img/ervaringen.png" alt="">
     </div>
     <div class="col container_foto foto_small">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#werkwijzeModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -217,7 +211,7 @@
       <img src="img/werkwijze.jpg" alt="">
     </div>
     <div class="col container_foto foto_small">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#vergoedingenModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -230,7 +224,7 @@
       <img src="img/vergoedingen.jpg" alt="">
     </div>
     <div class="col container_foto foto_small">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#bedrijvenModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -243,7 +237,7 @@
       <img src="img/work-life-balance.jpg" alt="">
     </div>
     <div class="col container_foto foto_small">
-      <div class="ver_mas text-center pt-3">
+      <div class="tiles text-center pt-3">
         <span id="click">
           <a data-target="#logoModal" data-toggle="modal">
             <h5 class="font-weight-light text-white">Lees Meer</h5>
@@ -262,15 +256,15 @@
 <div id="overMij" class="anchor"></div>
 <div class="container-fluid" id="overMijSection">
   <div class="masthead-mask">
-    <h3 class="font-weight-light text-center text-white pt-5">Over Mij</h3>
+    <h3 class="font-weight-normal text-center text-white py-5">Over Mij</h3>
     <h4 class="font-weight-light text-center text-white pb-5">José Velthuis</h4>
     <div class="timeline">
       <div class="timeline-container container-left">
         <div class="timeline-image" id="mijnFoto"></div>
         <div class="timeline-content">
-          <h4>Afstudeerscriptie</h4>
+          <h4 class="py-3">Afstudeerscriptie</h4>
           <p>
-             Mijn afstudeerscriptie voor de fysiotherapie heb ik geschreven over "Stress en Ontspanningstherapie". Na de opleiding heb ik verschillende nascholingscursussen gedaan op het vlak van ontspanning, lichaamsbewustwording, mindfulness, stressmanagement en coaching. Enthousiasme hierover heeft er toe geleid dat ik de driejarige parttime opleiding voor Adem- en Ontspanningstherapie Methode van Dixhoorn heb afgerond.
+             Mijn afstudeerscriptie voor de fysiotherapie heb ik geschreven over "Stress en Ontspanningstherapie". Na de opleiding heb ik verschillende nascholingscursussen gedaan op het vlak van ontspanning, lichaams- bewustwording, mindfulness, stressmanagement en coaching. Enthousiasme hierover heeft er toe geleid dat ik de driejarige parttime opleiding voor Adem- en Ontspanningstherapie Methode van Dixhoorn heb afgerond.
           </p>
           <p>
             In het Ziekenhuis Rijnstate in Arnhem, waar ik parttime werk, geef ik ontspanningscursussen binnen de hartrevalidatie. Ook geef ik individuele adem- en ontspanningstherapie bij spanningsgebonden klachten of als spanning het herstel belemmert bij patiënten van Revalidatie Medisch Centrum Groot Klimmendaal.
@@ -280,9 +274,9 @@
       <div class="timeline-container container-right">
         <div class="timeline-image" id="hetPraktijk"></div>
         <div class="timeline-content">
-          <h4>Eigen praktijk</h4>
+          <h4 class="py-3">Eigen praktijk</h4>
           <p>
-            In mijn eigen praktijk geef ik adem- en ontspanningstherapie volgens de Methode van Dixhoorn. Ook gebruik ik andere ontspanningsmethodes, lichaamsbewustwordings- en stressmanagementtechnieken.
+            In mijn eigen praktijk geef ik adem- en ontspanningstherapie volgens de Methode van Dixhoorn. Ook gebruik ik andere ontspanningsmethodes, lichaamsbewustwordings- en stressmanagement- technieken.
           </p>
           <p>
             Binnen bedrijven geef ik ontspanningsworkshops en trainingen op het gebied van adem- en ontspanningstherapie en stressmanagement.
@@ -295,114 +289,145 @@
 <!-- Reviews from clients -->
 <div id="reacties" class="anchor"></div>
 <div class="container-fluid" id="reactiesSection">
-  <div class="col-lg-12 text-center">
-    <h3 class="font-weight-light pt-5">Reacties</h3>
-    <div id="myCarousel" class="carousel slide align-items-center" data-ride="carousel">
+  <div class="col-lg-12">
+    <h3 class="font-weight-normal text-center pt-5 pb-2">Reacties</h3>
+    <div id="reactiesCarousel" class="carousel slide align-items-center" data-ride="carousel" data-wrap="false">
       <!-- Carousel indicators -->
       <div>
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-            <li data-target="#myCarousel" data-slide-to="7"></li>
-            <li data-target="#myCarousel" data-slide-to="8"></li>
-            <li data-target="#myCarousel" data-slide-to="9"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="1"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="2"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="3"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="4"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="5"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="6"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="7"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="8"></li>
+            <li data-target="#reactiesCarousel" data-slide-to="9"></li>
         </ol>
       </div>
       <!-- Wrapper for carousel items -->
-      <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <p><i>
-              Ik volg een opleiding tot yogadocente en merkte dat ik tijdens de yogabeoefening en ook in het dagelijks leven "last" had van mijn ademhaling. Ik hield mijn adem vaak vast en voelde spanning ter hoogte van het middenrif. Een docente op de opleiding gaf mij het advies om op zoek te gaan naar een therapeut die werkt volgens de methode van Dixhoorn. 
-              Zo kwam ik bij José terecht en voelde me direct op mijn gemak bij haar. 
-              We hebben samen een reis door mijn lichaam gemaakt. De spieren, gedachtes en adem hebben we onderzocht. Ik dacht dat ik alléén maar verkeerde ademde, maar de klachten bleken toch een andere oorzaak te hebben.   
-              Ik heb inzicht gekregen waar de spanning in mijn lichaam door veroorzaakt wordt en wat voor een invloed dat in mijn geval op de adem en spierspanning heeft. José heeft mij geleerd dat bewuster leven en naar mijn lichaam luisteren mij helpt om meer ontspannen te zijn. Ik ben heel blij dat mijn lichaam weer ontspannen kan ademen. 
-            </i></p>
-            <h5>José, cliënte</h5>
+      <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="1000">
+            <i>
+              <p>
+                Ik volg een opleiding tot yogadocente en merkte dat ik tijdens de yogabeoefening en ook in het dagelijks leven "last" had van mijn ademhaling. Ik hield mijn adem vaak vast en voelde spanning ter hoogte van het middenrif. Een docente op de opleiding gaf mij het advies om op zoek te gaan naar een therapeut die werkt volgens de methode van Dixhoorn.
+              </p>
+              <p>
+                Zo kwam ik bij José terecht en voelde me direct op mijn gemak bij haar. 
+                We hebben samen een reis door mijn lichaam gemaakt. De spieren, gedachtes en adem hebben we onderzocht. Ik dacht dat ik alléén maar verkeerde ademde, maar de klachten bleken toch een andere oorzaak te hebben.
+              </p>
+              <p> 
+                Ik heb inzicht gekregen waar de spanning in mijn lichaam door veroorzaakt wordt en wat voor een invloed dat in mijn geval op de adem en spierspanning heeft. José heeft mij geleerd dat bewuster leven en naar mijn lichaam luisteren mij helpt om meer ontspannen te zijn. Ik ben heel blij dat mijn lichaam weer ontspannen kan ademen.
+              </p>
+            </i>
+            <h5 class="text-right"> - José, cliënte</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
-              Vanuit een zware baan werd ik geconfronteerd met borstkanker en een jaar later een hartinfarct. Tussendoor probeerde ik te blijven werken en de fysieke aanslag het hoofd te bieden met ontspanningstherapie.
-              De methode Dixhoorn bood mij al vanaf de eerste dag een handvat om uit de permanente stressgevoelens te komen. Naast deze unieke therapie heeft José’s persoonlijkheid en professionaliteit mij door een zwaar traject van herstel en balans geholpen. Inmiddels ben ik twee jaar verder en volledig arbeidsgeschikt. Vanuit meer kijk op mijn gevoelens en in grote dankbaarheid  kijk ik terug op de route naar meer mentale en fysieke ontspanning die ik onder begeleiding van José heb afgelegd.
-            </i></p>
-            <h5>Een tevreden cliënte</h5>
+            <i>
+              <p>
+                Vanuit een zware baan werd ik geconfronteerd met borstkanker en een jaar later een hartinfarct. Tussendoor probeerde ik te blijven werken en de fysieke aanslag het hoofd te bieden met ontspanningstherapie.
+              </p>
+              <p>
+                De methode Dixhoorn bood mij al vanaf de eerste dag een handvat om uit de permanente stressgevoelens te komen. Naast deze unieke therapie heeft José’s persoonlijkheid en professionaliteit mij door een zwaar traject van herstel en balans geholpen. Inmiddels ben ik twee jaar verder en volledig arbeidsgeschikt. Vanuit meer kijk op mijn gevoelens en in grote dankbaarheid  kijk ik terug op de route naar meer mentale en fysieke ontspanning die ik onder begeleiding van José heb afgelegd.
+              </p>
+            </i>
+            <h5 class="text-right"> - Een tevreden cliënte</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               Ik ken José als een fijne collega.
               Als u wilt leren om bewust de spanning in uw lijf los te kunnen laten, kunt u zeker bij haar terecht.
               Zij zal u op een vakkundige, gedreven en betrokken manier begeleiden.
-            </i></p>
-            <h5>Judith van de Vrede, fysiotherapeut</h5>
+            </p></i>
+            <h5 class="text-right"> - Judith van de Vrede, fysiotherapeut</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               Ik volg een opleiding tot yogadocente en merkte dat ik tijdens de yogabeoefening en ook in het dagelijks leven "last" had van mijn ademhaling. Ik hield mijn adem vaak vast en voelde spanning ter hoogte van het middenrif. Een docente op de opleiding gaf mij het advies om op zoek te gaan naar een therapeut die werkt volgens de methode van Dixhoorn. 
+              </p>
+              <p>
               Zo kwam ik bij José terecht en voelde me direct op mijn gemak bij haar. 
               We hebben samen een reis door mijn lichaam gemaakt. De spieren, gedachtes en adem hebben we onderzocht. Ik dacht dat ik alléén maar verkeerde ademde, maar de klachten bleken toch een andere oorzaak te hebben.   
-              Ik heb inzicht gekregen waar de spanning in mijn lichaam door veroorzaakt wordt en wat voor een invloed dat in mijn geval op de adem en spierspanning heeft. José heeft mij geleerd dat bewuster leven en naar mijn lichaam luisteren mij helpt om meer ontspannen te zijn. Ik ben heel blij dat mijn lichaam weer ontspannen kan ademen. 
-            </i></p>
-            <h5>José, cliënte</h5>
+              </p>
+              <p>
+              Ik heb inzicht gekregen waar de spanning in mijn lichaam door veroorzaakt wordt en wat voor een invloed dat in mijn geval op de adem en spierspanning heeft. José heeft mij geleerd dat bewuster leven en naar mijn lichaam luisteren mij helpt om meer ontspannen te zijn. Ik ben heel blij dat mijn lichaam weer ontspannen kan ademen.
+            </p></i>
+            <h5 class="text-right"> - José, cliënte</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               Het is een goede therapie, waardoor ik bewust ben geworden van mijn onrust en ik de rust gevonden heb.
               José heeft mij op een prettige manier begeleid.
               De therapie helpt mij echt om de rust vast te houden in het dagelijks leven.
-            </i></p>
-            <h5>Lex Gerichhausen, cliënt</h5>
+            </p></i>
+            <h5 class="text-right"> - Lex Gerichhausen, cliënt</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
               In deze drukke tijd waar voortdurend een beroep wordt gedaan op het vermogen van mensen om zich aan te passen, is het van essentieel belang om goed te kunnen ontspannen.
-              Door adem- en lichaamsbewustwording en bewuste ontspanningsoefeningen leert een ieder om beter om te gaan met de spanning in zichzelf en de omgeving.
+              </p>
+              <p>
+              Door adem- en lichaams- bewustwording en bewuste ontspanningsoefeningen leert een ieder om beter om te gaan met de spanning in zichzelf en de omgeving.
+              </p>
+              <p>
               Op die wijze wordt voorkomen dat men te veel uit balans raakt en ongezond kan worden; wordt er geleerd met de stress om te gaan.
-            </i></p>
-            <h5>Wim Brendeke, fysiotherapeut /ontspanning Ziekenhuis Rijnstate</h5>
+            </p></i>
+            <h5 class="text-right"> - Wim Brendeke, fysiotherapeut /ontspanning Ziekenhuis Rijnstate</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               Er is bij mij een spierziekte (P.P.S.) geconstateerd, hier zijn geen medicijnen voor. Ik kreeg een dringend advies om mijn leven anders in te richten, dit om de kwaliteit van mijn gezondheid voor de toekomst op een zo hoog mogelijk niveau te kunnen behouden.
+              </p>
+              <p>
               Via de revalidatiearts van Ziekenhuis Rijnstate ben ik in contact gekomen met de praktijk van José Velthuis. We zijn opzoek gegaan naar ontspanningsoefeningen die het beste bij mij passen, ik werd een ontdekkingsreiziger in mijn eigen lichaam, van José heb ik bijzonder veel geleerd. De geweldige passie van José heeft mij gestimuleerd om lichaam en geest de ruimte te geven en op zoek te gaan naar een nieuw evenwicht.
-            </i></p>
-            <h5>Eye Faber, cliënt</h5>
+            </p></i>
+            <h5 class="text-right"> - Eye Faber, cliënt</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               Ik ben me bewuster geworden dat ik altijd erg druk was en dingen gehaast deed.
+              </p>
+              <p>
               Door de ontspanningstherapie ervaar ik fysiek en mentaal meer rust. Ik voel me energieker en opgewekter.
+              </p>
+              <p>
               Ik sta bewuster in het leven en kom meer voor mezelf op.
               José heeft mij met enthousiasme begeleid.
-            </i></p>
-            <h5>cliënt</h5>
+            </p></i>
+            <h5 class="text-right"> - cliënt</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               Als handtherapeut verwijs ik regelmatig cliënten door naar de ontspanningstherapeut, omdat er naast fysieke problematiek ook vaak sprake is van lang bestaande vermoeidheid, slecht lichaamsgevoel en matige grenshantering.
+              </p>
+              <p>
               Bij de ontspanningstherapeut leert de cliënt het verschil tussen aan- en ontspannen voelen en het ontspannen toe te passen tussen activiteiten door.
               Dat resulteert in een betere verhouding tussen belasting en belastbaarheid en uiteindelijk in vermindering van, of betere omgang met de fysieke klachten en betere grenshantering.
+              </p>
+              <p>
               Door beter voor zichzelf te zorgen is er meer draagkracht om met een klacht te leren omgaan en dat is voor mijn therapie een belangrijke ondersteuning.
               Het biedt de cliënt de mogelijkheid weer in het dagelijks leven te functioneren, zo nodig aangepast aan de nieuwe situatie.
-            </i></p>
-            <h5>Mariëtte Loeve-Kernkamp, handtherapeut</h5>
+            </p></i>
+            <h5 class="text-right"> - Mariëtte Loeve-Kernkamp, handtherapeut</h5>
           </div>
           <div class="carousel-item">
-            <p><i>
+            <i><p>
               José heeft me met passie begeleid.
+              </p>
+              <p>
               Ik ben me bewust geworden van de wisselwerking tussen mijn lichaam en mijn gedachten. Ik ga hier bewuster mee om en dit helpt mij om mijn gedrag in positieve zin te veranderen en dit geeft mij meer energie.
-            </i></p>
-            <h5>cliënt, communicatie trainer</h5>
+            </p></i>
+            <h5 class="text-right"> - cliënt, communicatie trainer</h5>
           </div>
       </div>
       <!-- Carousel controls -->
-      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <a class="carousel-control-prev" href="#reactiesCarousel" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
+            <!--div class="display-1 text-white pl-5 d-inline-flex align-items-start"><i>"</i></div-->
       </a>
-      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+      <a class="carousel-control-next" href="#reactiesCarousel" data-slide="next">
+          <!--div class="display-1 text-white pr-5"><i>"</i></div--> 
           <span class="carousel-control-next-icon"></span>
       </a>
     </div>
@@ -412,7 +437,7 @@
 <!-- Contact Section -->
 <div id="contact" class="anchor"></div>
 <div class="topic-section container-fluid" id="contactSection">
-  <h3 class="font-weight-light text-center pt-5">Neem contact op met mij</h3> 
+  <h3 class="font-weight-normal text-center pt-5">Neem contact op met mij</h3> 
   <h6 class="font-weight-light font-italic text-center pt-2 pb-5">
     Voor meer informatie of het maken van een afspraak kunt u telefonisch of per mail contact met mij opnemen.
   </h6>
@@ -468,7 +493,7 @@
         </div>
       </div>
       <div class="modal-body">
-        <div>
+        <div class="long-text">
           <p class="lead">
             <i>Stress</i> hoort bij het leven en geeft meestal een tijdelijk verhoogde spanning.
           </p>
@@ -825,7 +850,7 @@
           <p>
             Bij de externe zelfregulatie beïnvloed je je lichaam via de omgeving, dit kan actief en passief zijn. Bij actieve externe zelfregulatie gebruik je de omgeving om daarmee jezelf te beïnvloeden. Door bijvoorbeeld in de spiegel te kijken, kun je je bewust worden van je houding. Dit wordt aangegeven door de gekromde pijl buiten de cirkel. Bij passieve externe zelfregulatie laten we invloeden van buiten af op ons inwerken, bijvoorbeeld door hulp te zoeken. Dit kan invloed hebben op je bewuste of onbewust deel. Dit wordt aangegeven door de rechte pijlen buiten de cirkel.
           </p>
-          <p class="lead">
+          <p>
             Adem- en ontspanningstherapie vergroot je bewustzijn en zorgt er voor dat je meer in contact komt met jezelf. Dit kan er voor zorgen dat je bewuster wordt van je eigen grenzen, deze durft op te zoeken en overbelasting tijdig wordt opgemerkt. De invloed van emoties en spanningen worden gevoeld. Het kan zijn dat je dan beter onder woorden kunt brengen hoe het met je is. Hierdoor wordt het voor jezelf en de omgeving begrijpelijker.
           </p>
         </div>
