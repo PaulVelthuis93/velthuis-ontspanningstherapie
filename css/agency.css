@@ -96,10 +96,6 @@ img.rounded-circle {
   transition: all 0.2s ease-in-out;
 }
 
-span.tiles {
-  display: block;
-}
-
 /*hovers*/
 
 .container_foto:hover {
@@ -256,6 +252,7 @@ span.tiles {
   width: 690px;
   padding: 0px;
   margin: 0px;
+  display: block;
 }
 
 @media screen 
@@ -401,15 +398,15 @@ span.tiles {
 }
 
 #doelgroepModalHeader {
-  background-image: url('../img/modal-mindful.jpg');
+  background-image: url('../img/portfolio/mindful.jpg');
 }
 
 #stressModalHeader {
-  background-image: url('../img/stress.jpg');
+  background-image: url('../img/portfolio/balans.jpg');
 }
 
 #ademModalHeader {  
-  background-image: url('../img/breathe.jpg');
+  background-image: url('../img/ruimte.jpg');
 }
 
 #werkwijzeModalHeader {
@@ -417,15 +414,15 @@ span.tiles {
 }
 
 #bedrijvenModalHeader {
-  background-image: url('../img/workshop.jpg');
+  background-image: url('../img/portfolio/bedrijven.jpg');
 }
 
 #vergoedingenModalHeader {
-  background-image: url('../img/vergoedingen.jpg');
+  background-image: url('../img/portfolio/vergoedingen.jpg');
 }
 
 #ervaringenModalHeader {
-  background-image: url('../img/ervaringen.png');
+  background-image: url('../img/portfolio/ervaringen.png');
   background-position: bottom;
 }
 
