@@ -44,10 +44,12 @@ img.rounded-circle {
 
 .foto_big {
   max-width: 350px;
+  max-height: 350px;
 }
 
 .foto_small {
   max-width: 230px;
+  max-height: 230px;
   margin:0px;
 }
 
@@ -318,15 +320,19 @@ img.rounded-circle {
     line-height: 1.0;
   }
   .portfolio {
-    column-count: 2;
+    /*column-count: 2;*/
     column-gap: 0px;
-    width: 40vh;
+    width: 100%;
     padding: 0px;
     margin: 0px;
   }
 
   .foto_big {
     width: 50vh;
+  }
+
+  .foto_small {
+    width: 100%;
   }
 
   .portfolio h5{
@@ -361,7 +367,7 @@ img.rounded-circle {
 }
 
 #hetPraktijk {
-  background-image: url('../img/clinic.jpg');
+  background-image: url('../img/praktijk.jpg');
 }
 
 #voorWieSection {
