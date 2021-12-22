@@ -412,11 +412,11 @@ img.rounded-circle {
 }
 
 #ademModalHeader {  
-  background-image: url('../img/ruimte.jpg');
+  background-image: url('../img/portfolio/ruimte.jpg');
 }
 
 #werkwijzeModalHeader {
-  background-image: url('../img/werkwijzeModal.jpg'); 
+  background-image: url('../img/portfolio/werkwijzeModal.jpg'); 
 }
 
 #bedrijvenModalHeader {
