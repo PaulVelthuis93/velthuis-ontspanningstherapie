@@ -1,13 +1,12 @@
 body {
 	font-family:Verdana;
-	font-size:14px;
 	line-height:20px;
 	margin:0px;
 	padding:0px;
 
 	overflow-y: scroll;
 	color:#8C0303;
-background-color:#8C0303;
+	background-color:#8C0303;
 }
 
 /* CONTAINER */
@@ -33,7 +32,7 @@ background-color:#8C0303;
 	width:833px;
 	height:10px;
 	margin-top:10px;
-background-color:#F2F1EB;
+	background-color:#F2F1EB;
 }
 
 
@@ -50,7 +49,7 @@ background-color:#F2F1EB;
 	width:833px;
 	height:20px;
 	margin-top:15px;
-background-color:#F2F1EB;
+	background-color:#F2F1EB;
 }
 
 #main-werkbalk {
@@ -65,7 +64,7 @@ background-color:#F2F1EB;
 	margin:0px 10px 15px 10px;
 	padding-bottom:10px;
 	
-background-color:#F2F1EB;
+	background-color:#F2F1EB;
 }
 
 
@@ -121,11 +120,6 @@ background-color:#F2F1EB;
 	height:32px;
 	padding-top:5px;
 }
-
-
-
-
-
 
 
 a:link { 
@@ -299,12 +293,11 @@ H3 {
 }
 
 p {
-color: #8C0303;
+	color: #8C0303;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	
-	
-font-size:12px;
-
+	font-size: 12px;
+    	font-size: 1.5vw;
 }
 
 /*------------------------------------*\
